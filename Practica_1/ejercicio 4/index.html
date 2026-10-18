@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercitación 4 - HTML</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://www.frro.utn.edu.ar" target="_blank">
+            <img src="Logo utn.jpg" alt="Logo UTN-FRRO" width="600" height="200">
+        </a>
+    </header>
+
+    <hr>
+
+    <h2>AÑO 2008</h2>
+
+    <table border="1" cellpadding="5">
+        <tr>
+            <td rowspan="2">Fecha: .......................................</td>
+            <td>Exámenes</td>
+        </tr>
+        <tr>
+            <td>Aprobados<br>24/30</td>
+        </tr>
+    </table>
+    <br>
+
+    <ol>
+        <li><a href="#enunciado-seccion">Enunciado del examen</a></li>
+        <li><a href="resolucion.html" target="_blank">Resolución</a></li>
+    </ol>
+
+    <p>Puede realizar consultas completando el siguiente formulario:</p>
+    <form action="mailto:x@x.com" method="post" enctype="text/plain">
+        <label for="email"><strong>e-mail:</strong></label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="consulta"><strong>consulta:</strong></label><br>
+        <textarea id="consulta" name="consulta" rows="4" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+    </form>
+
+    <br>
+
+    <h3 id="enunciado-seccion">Enunciado del examen</h3>
+    
+    <p>Ejercicio 1: ........................................................................</p>
+    <p>Ejercicio 2: ........................................................................</p>
+
+    <br>
+
+    <p>Para más información dirigirse a <a href="mailto:contacto@xx.com">contacto@xx.com</a></p>
+
+</body>
+</html>
