@@ -18,8 +18,8 @@ _";
  return true;
 } 
 
-// comprobamos su funcionamiento
+// comprobamos su funcionamiento con el nombre  de una de los integrantes del grupo como ejemplo:
 comprobar_nombre_usuario("ma"); // devuelve false porque la longitud es menor a 3
 comprobar_nombre_usuario("magali*"); // devuelve false porque posee el caracter '*' que no está permitido
-comprobar_nombre_usuario("magalil"); // devuelve true, es correcto
+comprobar_nombre_usuario("magalil"); //  devuelve true, es correcto
 ?>
